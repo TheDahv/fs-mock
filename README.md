@@ -18,6 +18,16 @@ and name the file for the HTTP verb you want to respond to.
 ***From Binaries***
 
 I'll get around to this at some point ;)
+Find [the release version](https://github.com/TheDahv/fs-mock/releases) you wish
+to use. Go to its "downloads", download the binary appropriate for your
+system, and place it somewhere in your executable path.
+
+For example, on my Linux machine, I would run the following:
+
+```
+curl -O https://github.com/TheDahv/fs-mock/releases/download/v0.0.1/fs-mock_linux_386
+mv fs-mock_linux_386 ~/bin/fs-mock
+```
 
 ***From source***
 
