@@ -37,6 +37,7 @@ func main() {
 			w.Write([]byte(fmt.Sprintf("JSON mock not found at %s", p)))
 			return
 		}
+		defer f.Close()
 
 		w.Header().Add("Content-Type", "application/json")
 		io.Copy(w, f)
