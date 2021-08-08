@@ -17,7 +17,6 @@ and name the file for the HTTP verb you want to respond to.
 
 ***From Binaries***
 
-I'll get around to this at some point ;)
 Find [the release version](https://github.com/TheDahv/fs-mock/releases) you wish
 to use. Go to its "downloads", download the binary appropriate for your
 system, and place it somewhere in your executable path.
