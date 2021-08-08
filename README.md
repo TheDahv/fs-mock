@@ -42,6 +42,8 @@ go install
 $ fs-mock -h
 
 Usage of fs-mock:
+  -dir string
+        directory to serve (default to current directory)
   -host string
         host to bind to (default "0.0.0.0")
   -port int
